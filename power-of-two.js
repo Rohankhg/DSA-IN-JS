@@ -33,3 +33,14 @@ function isPowerOfTwo(n) {
 }
 
 //Big-O = log(n)
+
+//Liner time complexity can be acheive using bitwise operator
+
+function powerOfTwoBitwise(num) {
+    if (n < 1) {
+        return false;
+    }
+    return (n & (n - 1)) === 0
+}
+
+//Linear time complexity 
