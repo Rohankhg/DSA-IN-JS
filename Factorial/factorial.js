@@ -7,5 +7,6 @@ function factorial(num) {
 }
 
 console.log(factorial(5))  // 120
+console.log(factorial(0)) //1
 
 //Big-O = O(n)
