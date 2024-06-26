@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "stdout-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "3.3.2"
   }
 }
