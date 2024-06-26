@@ -3,6 +3,7 @@ function primeNumber(num){
     if(num<2){
         return true;
     }
+    //for(let i=2;i<=Math.sqrt(num);i++)///O(sqrt(n)) is the time complexity in this case
     for(let i=2;i<=num/2;i++){
         if(num%i===0){
             isPrime=false;
