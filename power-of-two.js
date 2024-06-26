@@ -43,4 +43,4 @@ function powerOfTwoBitwise(num) {
     return (n & (n - 1)) === 0
 }
 
-//Linear time complexity 
+//constant time complexity O(1)
